@@ -71,6 +71,7 @@
 }
 
 .commentForm textarea {
+  color: var(--gray-100);
   width: 100%;
   background: var(--gray-900);
   border: 0;
@@ -106,6 +107,15 @@
 .commentForm button[type=submit] {
   background: var(--green-300);
   transition: color 0.1s, background-color 0.1s;
+}
+
+.commentForm button[type=submit]:not(:disabled):hover {
+  background: var(--green-500);
+}
+
+.commentForm button[type=submit]:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 .commentList {
