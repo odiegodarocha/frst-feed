@@ -1,6 +1,6 @@
 # Feed
 
-Projeto desenvolvido utilizando os conceitos mais importantes do React (componentização, propriedades, estados, imutabilidade e hooks), além de aplicar Typescript para adicionar tipagem estática à aplicação.
+Um simples projeto desenvolvido utilizando os conceitos mais importantes do React (componentização, propriedades, estados, imutabilidade e hooks), além de aplicar Typescript para adicionar tipagem estática à aplicação.
 
 ## Tecnologias e ferramentas utilizadas
 
